@@ -70,11 +70,13 @@ export default function ProposalPage() {
     <main className="min-h-screen bg-slate-50 text-slate-900 pb-20">
       {/* Hero Header */}
       <header className="bg-slate-900 text-white py-24 px-6 text-center">
-        
-        <div className="mb-8 flex justify-center">
+        <div className="mb-8 flex justify-center items-center gap-8">
+          <img src="/blue_wisdom_logo.png" alt="Blue Wisdom" className="h-24 object-contain bg-white p-2 rounded shadow" />
+          
+          <div className="text-3xl text-slate-400">×</div>
           <img src="/anu-logo.png" alt="Anant National University" className="h-24 object-contain bg-white p-2 rounded shadow" />
+          
         </div>
-        
         <h1 className="text-5xl font-extrabold mb-4">Architecting Academic Excellence</h1>
         <p className="text-xl text-slate-300 max-w-2xl mx-auto italic">"A Strategic Training Needs Identification & Competency Mapping Initiative"</p>
         <div className="mt-8 inline-block bg-white/10 px-6 py-2 rounded-full border border-white/20">

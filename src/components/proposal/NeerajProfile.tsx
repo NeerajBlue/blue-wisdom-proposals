@@ -10,8 +10,7 @@ export default function NeerajProfile() {
       <div className="md:flex">
         <div className="md:w-1/3 bg-slate-100 p-8 flex flex-col items-center justify-center border-r border-slate-200">
           <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg mb-6">
-            {/* Fallback to a nice colored circle if photo not found, but we expect the user to put neeraj_photo.jpg in public */}
-            <img src="/neeraj_photo.jpg" alt="Neeraj Bhardwaj" className="w-full h-full object-cover bg-blue-100" onError={(e) => { e.currentTarget.src = 'https://ui-avatars.com/api/?name=Neeraj+Bhardwaj&background=003366&color=fff&size=256' }} />
+            <img src="/neeraj_bhardwaj.png" alt="Neeraj Bhardwaj" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-2xl font-bold text-slate-900 text-center">Neeraj Bhardwaj</h3>
           <p className="text-blue-600 font-medium mb-4 text-center">Director, Blue Wisdom Pvt. Ltd.</p>
