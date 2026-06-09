@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Award, BookOpen, Briefcase, Linkedin } from 'lucide-react';
+import { Award, BookOpen, Briefcase } from 'lucide-react';
 
 export default function NeerajProfile() {
   return (
@@ -16,7 +16,7 @@ export default function NeerajProfile() {
           <h3 className="text-2xl font-bold text-slate-900 text-center">Neeraj Bhardwaj</h3>
           <p className="text-blue-600 font-medium mb-4 text-center">Director, Blue Wisdom Pvt. Ltd.</p>
           <a href="#" className="flex items-center text-slate-500 hover:text-blue-600 transition-colors">
-            <Linkedin className="w-5 h-5 mr-2" />
+
             <span className="text-sm font-semibold">Connect on LinkedIn</span>
           </a>
         </div>

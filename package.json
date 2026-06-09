@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate": "node scripts/generate-proposal.js"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

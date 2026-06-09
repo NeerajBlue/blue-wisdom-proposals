@@ -1,0 +1,60 @@
+{
+  "clientName": "Anant National University",
+  "clientLogo": "/anu-logo.png",
+  "title": "Architecting Academic Excellence",
+  "subtitle": "A Strategic Training Needs Identification & Competency Mapping Initiative",
+  "interventionType": "OD",
+  "executiveSummary": {
+    "situation": "Anant National University stands at the forefront of Design and Architecture education. To maintain academic and operational preeminence, the university requires faculty and staff who are not only subject matter experts but also aligned with unique industry expectations.",
+    "complication": "Applying a standard, pre-packaged training calendar risks missing the nuanced, highly specific developmental needs of a design-centric institution, potentially leading to misaligned budgets and low ROI.",
+    "question": "How can we precisely diagnose the unique competency gaps across faculty and staff to ensure any future training investments are highly focused and immediately impactful?",
+    "answer": "Phase 1: A Comprehensive Training Needs Identification (TNI) and Competency Mapping exercise utilizing Blue Wisdom's diagnostic tools to architect a bespoke developmental roadmap."
+  },
+  "coreRecommendation": "Execute a Comprehensive TNI & Competency Mapping Phase",
+  "pillars": [
+    {
+      "title": "Stakeholder Alignment",
+      "description": "In-depth 1-on-1 interviews with Deans and HODs to understand vision and academic expectations."
+    },
+    {
+      "title": "Competency Audits",
+      "description": "Deploying 360-degree feedback and psychometric assessments to identify behavioral and technical gaps among staff and faculty."
+    },
+    {
+      "title": "Blueprint Creation",
+      "description": "Designing a data-driven, highly focused Training Calendar and Budget aligned strictly to the diagnosed needs."
+    }
+  ],
+  "timelineEvents": [
+    {
+      "day": "Week 1",
+      "title": "Leadership Diagnostics",
+      "description": "Alignment meetings with University Leadership to map the ideal 'Design & Architecture' competency model."
+    },
+    {
+      "day": "Week 2-3",
+      "title": "Assessment Deployment",
+      "description": "Rolling out surveys and focus group discussions across departments."
+    },
+    {
+      "day": "Week 4",
+      "title": "The Blueprint Presentation",
+      "description": "Presenting the final TNI Report and a recommended, highly-targeted training calendar for approval."
+    }
+  ],
+  "pricingTiers": [
+    {
+      "name": "Diagnostic Phase",
+      "description": "Full TNI and Blueprint Delivery.",
+      "price": "₹2,50,000",
+      "recommended": true,
+      "features": ["Leadership Interviews", "Faculty Assessments", "Final TNI Report", "Custom Training Calendar Design"]
+    },
+    {
+      "name": "Diagnostic + Pilot",
+      "description": "Includes one pilot training module.",
+      "price": "₹3,75,000",
+      "features": ["Full Diagnostic Phase", "1-Day Pilot Workshop based on findings", "Impact Assessment"]
+    }
+  ]
+}
