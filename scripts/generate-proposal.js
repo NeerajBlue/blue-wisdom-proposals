@@ -61,6 +61,7 @@ if (config.interventionType === 'Classroom') {
 // 4. Generate the Next.js page content based on config
 const pageContent = `
 import React from 'react';
+import Image from 'next/image';
 import ExecutiveSummary from '@/components/proposal/ExecutiveSummary';
 import PyramidPrinciple from '@/components/proposal/PyramidPrinciple';
 import Timeline from '@/components/proposal/Timeline';
@@ -81,10 +82,10 @@ export default function ProposalPage() {
       {/* Hero Header */}
       <header className="bg-slate-900 text-white py-24 px-6 text-center">
         <div className="mb-8 flex justify-center items-center gap-8">
-          <img src="/blue_wisdom_logo.png" alt="Blue Wisdom" className="h-24 object-contain bg-white p-2 rounded shadow" />
+          <Image src="/blue_wisdom_logo.png" alt="Blue Wisdom" width={200} height={96} className="h-24 object-contain bg-white p-2 rounded shadow" />
           ${config.clientLogo ? `
           <div className="text-3xl text-slate-400">×</div>
-          <img src="${config.clientLogo}" alt="${config.clientName}" className="h-24 object-contain bg-white p-2 rounded shadow" />
+          <Image src="${config.clientLogo}" alt="${config.clientName}" width={200} height={96} className="h-24 object-contain bg-white p-2 rounded shadow" />
           ` : ''}
         </div>
         <h1 className="text-5xl font-extrabold mb-4">${config.title}</h1>

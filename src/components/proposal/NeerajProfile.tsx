@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Award, BookOpen, Briefcase } from 'lucide-react';
 
@@ -10,7 +11,13 @@ export default function NeerajProfile() {
       <div className="md:flex">
         <div className="md:w-1/3 bg-slate-100 p-8 flex flex-col items-center justify-center border-r border-slate-200">
           <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg mb-6">
-            <img src="/neeraj_bhardwaj.png" alt="Neeraj Bhardwaj" className="w-full h-full object-cover" />
+            <Image 
+              src="/neeraj_bhardwaj.png" 
+              alt="Neeraj Bhardwaj" 
+              width={192}
+              height={192}
+              className="w-full h-full object-cover" 
+            />
           </div>
           <h3 className="text-2xl font-bold text-slate-900 text-center">Neeraj Bhardwaj</h3>
           <p className="text-blue-600 font-medium mb-4 text-center">Director, Blue Wisdom Pvt. Ltd.</p>
